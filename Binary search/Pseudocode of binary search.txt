@@ -1,0 +1,6 @@
+nums = [10, 14, 19, 26, 27, 31, 33, 35, 42, 44]
+for num in nums: 
+    if 505 == num:
+        print("we have found 33")
+    else:
+        print("not found")
