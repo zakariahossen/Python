@@ -1,6 +1,15 @@
-nums = [10, 14, 19, 26, 27, 31, 33, 35, 42, 44]
-for num in nums: 
-    if 505 == num:
-        print("we have found 33")
-    else:
-        print("not found")
+function binary_search (list, find_value):
+    low = 0
+    high = length of the list
+    while low <= high:
+        mid = average of low and high
+        if mid element < find_value
+            Element will be on the right side
+            low = mid
+        else if mid element > find_value
+            Element will be on the left side
+            high = mid
+        else
+            You got the element
+            Return the mid 
+
