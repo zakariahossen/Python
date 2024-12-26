@@ -11,5 +11,5 @@ def word_count(sentence):
     return count
 
 user_sen = input("Input your texts: ")
-result = word_counter(user_sen)
+result = word_count(user_sen)
 print(result)
